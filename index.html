@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- impostazioni base e inclusione file principali -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+  <link rel="stylesheet" type="text/css" href="microsito.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+
+  <!-- informazioni minime per i motori di ricerca -->
+  <title>Echoes of Color</title>
+  <meta name="description" content="An ode to synesthesia, where melodies move in vibrant shapes and colors, with each note painting emotions to form a constantly evolving visual landscape." />
+  <!-- informazioni minime per la condivisione sui social -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Echoes of Color" />
+  <meta property="og:description" content="An ode to synesthesia, where melodies move in vibrant shapes and colors, with each note painting emotions to form a constantly evolving visual landscape." />
+  <meta property="og:url" content="https://editor.p5js.org/tommasorita/present/nm-6kvL0L" />
+  <meta property="og:image" content="https://preview.p5js.org/tommasorita/sketches/nm-6kvL0L/preview.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+</head>
+
+<body>
+
+  <!-- informazioni visualizzate al clic sul pulsante (?) -->
+  <div id="pannello-info">
+    <article>
+      <h1>Echoes of Color</h1>
+      <p>TOMMASO RITA</p>
+      <hr>
+      <p>
+Art reveals the invisible, intertwining sounds and colors in a sensory language.</p>
+      <p>An ode to synesthesia, where melodies dance in an embrace of shapes and colors. Each note is a brush that paints emotions, creating a visual landscape in constant transformation, celebrating the art of perceiving the invisible and revealing the invisible in the tangible.</p>
+      <p>Interactions: SpaceBar (fullscreen), Key P (Play/Pause), Left Mouse Click (change color and velocity) </p>
+      <hr>
+      <p>Audio: 
+        <a href="https://soundcloud.com/okeymood/intro-monday" target="_blank">"INTRO (monday)"</a> by <a href="https://soundcloud.com/okeymood" target="_blank"> OKEYMOOD </a> 
+        
+        <!-- con link alla pagina del brano (non al file audio)
+        "BRANO 2" DI <a href="https://URLDICAIO/" target="_blank">CAIO</a>  -->    
+        <!-- o link al sito del musicista, se manca pagina del brano --> 
+      </p>
+    </article>
+  </div>
+
+  <!-- pulsanti audio e informazioni -->
+  <button id="pulsante-audio" onclick="attivaDisattivaAudio()"><span class="lnr lnr-volume-high"></span></button>
+  <button id="pulsante-info" onclick="apriChiudiInfo()"><span class="lnr lnr-question-circle"></span></button>
+
+  <!-- inclusione altri script e sketch.js -->
+  <script src="microsito.js"></script>
+  <script src="sketch.js"></script>
+
+</body>
+
+</html>
